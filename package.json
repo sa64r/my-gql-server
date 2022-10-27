@@ -1,0 +1,29 @@
+{
+  "name": "my-gql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sa64r/my-gql-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sa64r/my-gql-server/issues"
+  },
+  "homepage": "https://github.com/sa64r/my-gql-server#readme",
+  "dependencies": {
+    "@apollo/server": "^4.0.4",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "typescript": "^4.8.4"
+  }
+}
